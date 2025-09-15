@@ -19,7 +19,8 @@ class Dog extends Animal {
 public class InheritancePractice {
     public static void main(String[] args) {
         // Parent reference, child object → polymorphism
-        Animal ani = new Dog();
-        ani.sound();
+    	Animal ani = new Dog();
+    	ani.sound();
+
     }
 }
